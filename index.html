@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE-edge">
+    <meta namme ="viewport" content="width=device-width", initial-scale="1.0">
+    <title>KantoFoods</title>
+    <link rel="shortcut icon" href="images/KantoFoodsLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--font custom link-->
+    <link rel = "stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!--header section starts-->
+<header>
+<a href ="#" class="logo"><img src ="images/KantoFoodsLogo.png"></a>
+<nav class ="navbar">
+    <a class="active" href = "#home">home</a>
+    <a href ="#dishes">dishes</a>
+    <a href ="#about">about</a>
+    <a href ="#menu">menu</a>
+    <a href ="#review">review</a>
+    <a href = "#order">order</a>
+</nav> 
+
+<div class = "icons">
+    <i class = "fas fa-bars" id = "menu-bars"></i>
+    <i class = "fas fa-search" id = "search-icon"></i>
+    <i class = "fas fa-heart" id = "heart"></i>
+    <i class = "fas fa-shopping-cart" id = "cart"></i>
+
+</div>
+
+
+</header>
+<!--header section ends-->
+<!--search form-->
+<form action = '' id = 'search-form'>
+      <input type='search' placeholder ='Search Foods' name='' id = 'search-box'>
+      <label for ='search-box' class='fas fa-search'></label>
+      <i class='fas fa-times' id='close'></i>
+</form>
+
+<section class="home" id="home">
+    <div class ="swiper home-slider">
+        <div class ="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Fast Delivery | Easy Payment | 24/7 Services</span>
+                    <h3>Make order kana
+                        ng tusok-tusok brah!</h3>
+                    <p>Satisfy mo na your cravings on street-foods. </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+        
+                </div>
+            </div>
+            </div>
+        </div> 
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<!--home section ends-->
+<!--dishes section starts-->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">Our Best Sellers</h3>
+    <h1 class="heading">Popular Dishes</h1>
+<div class ="box-container">
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Zigzags.png" alt="">
+        <div class="content">
+        <h3>Zigzags (chicken)</h3>
+        <span>20.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Betamax Pro.png" alt="">
+        <div class="content">
+        <h3>Betamax Pro</h3>
+        <span>15.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Sisig.png" alt="">
+        <div class="content">
+        <h3>Sheesh-Sig</h3>
+        <span>100.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Kwek-kwek.png" alt="">
+        <div class="content">
+        <h3>Egg Waffles</h3>
+        <span>20.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Taho.png" alt="">
+        <div class="content">
+        <h3>Soya Beancurd (taho)</h3>
+        <span>20.00 Php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Balut.png" alt="">
+        <div class="content">
+        <h3>Fertilized duck egg (balut)</h3>
+        <span>30.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+
+
+
+</section>
+ 
+<!--dishes section ends-->
+<!--about section starts-->
+<section class="about" id="about">
+    <h3 class="sub-heading">About Us</h3>
+    <h1 class="heading">Why Choose Us?</h1>
+  <div class ="row">
+    
+      <div class ="image">
+        <div id="circ">
+            <img src="images/Sheeshable.png">
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+      
+           <img src ="images/Food Bag 3.png">
+      </div>
+      <div class="content">
+             <h3 class>Best Food In the Country</h3>
+             <p> is simply dummy text of the printing and 
+                typesetting industry. Lorem Ipsum has been 
+                the industry's standard dummy text ever 
+                since the 1500s, when an unknown printer 
+                took a galley of type and scrambled it 
+                to make a type specimen book. It has survived 
+                not only five</p>
+      
+           <div class="icons-container">
+           <div class="icons">
+                <i class = "fas fa-shipping-fast"></i>
+                <h2>Fast Delivery</h2>
+           </div>
+           <div class="icons">
+                <i class = "fas fa-dollar-sign"></i>
+                <h2>Easy Payments</h2>
+            </div>
+            <div class="icons">
+            <i class = "fas fa-headset"></i>
+            <h2>24/7 Services</h4>
+            </div>
+       
+              <a href="#" class = 'btn'>Learn More</a>
+         
+        </div>
+    </div>
+
+</section>
+<!--about section ends-->
+<!--menu section starts--> 
+<section class="menu" id="menu">
+    <h3 class="sub-heading">Our Special Dishes</h3>
+    <h1 class="heading">Popular Dishes</h1>
+<div class ="box-container">
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Zigzags (Pork).png" alt="">
+        <div class="content">
+        <h3>Zigzags (Pork)</h3>
+        <span>20.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Dirty-Ice -Cream.png" alt="">
+        <div class="content">
+        <h3>Dirty Ice  cream
+            (Sorbetes)</h3>
+        <span>15.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Flower-Crunch.png" alt="">
+        <div class="content">
+        <h3>Flower Crunch
+            (Chicaron bulaklak)
+           </h3>
+        <span>100.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Chicken-Skin.png" alt="">
+        <div class="content">
+        <h3>Chicken Skin</h3>
+        <span>20.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Banana Cutie.png" alt="">
+        <div class="content">
+        <h3>Banana Cutie</h3>
+        <span>20.00 Php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Turon.png" alt="">
+        <div class="content">
+        <h3>Turon</h3>
+        <span>30.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Calamares.png" alt="">
+        <div class="content">
+        <h3>Calamares</h3>
+        <span>20.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Adidas.png" alt="">
+        <div class="content">
+        <h3>Addidas</h3>
+        <span>20.00 Php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class ="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="images/Arroz Caldo.jpg" alt="">
+        <div class="content">
+        <h3>Arroz Caldo</h3>
+        <span>30.00php /per pieces</span>
+        <a href="#" class = "btn">Add to Cart</a>
+    </div>
+    </div>
+    <div></div>
+    
+    <a href="#" class = "seemore">See More Foods</a>
+
+<div></div>
+</section>
+
+<!--menu section ends--> 
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h3 class="sub-heading">Customer's Review</h3>
+    <h1 class="heading">What They Say</h1>  
+
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-1.png" alt="">
+              <div class="user-info">
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p> is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a 
+                type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. 
+            </p>
+         </div>   
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-2.png" alt="">
+              <div class="user-info">
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p> is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a 
+                type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. 
+            </p>
+         </div>   
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-3.png" alt="">
+              <div class="user-info">
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star"></i>
+                    <i class ="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p> is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a 
+                type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. 
+            </p>
+         </div>   
+       </div>
+    </div>
+
+</section>
+
+
+<!--review section ends--> 
+
+<!--order section starts--> 
+<section class ="order" id="order">
+    <h3 class="sub-heading">Order Now</h3>
+    <h1 class="heading">Fast Delivery</h1>
+
+    <form action ="">
+        <div class ="inputBox">
+            <div class="input">
+                <span>Your name</span>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input">
+                <span>Your number</span>
+                <input type="text" placeholder="Enter your number">
+            </div>
+        
+            <div class ="inputBox">
+                <div class="input">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="Enter food name">
+                </div>
+                <div class="input">
+                    <span>Additional Food</span>
+                    <input type="text" placeholder="Extra with food">
+            </div>
+
+            <div class ="inputBox">
+                <div class="input">
+                    <span>How much</span>
+                    <input type="number" placeholder="How many orders">
+                </div>
+                <div class="input">
+                    <span>Date and time</span>
+                    <input type="datetime-local">
+            </div>
+
+            <div class ="inputBox">
+                <div class="input">
+                    <span>Your Address</span>
+                    <textarea name="number" placeholder="enter your address" id="" cols="100" rows="10">
+                    </textarea>    
+                </div>
+                <div class="input">
+                    <span>Your Message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="100" rows="10">
+                    </textarea>
+                </div class="orderbtn-container">
+                </div class="orderbtn">
+                <input type="Submit" value="Order Now" class="btn">
+                </div>
+            </div>
+     </form>
+</section>
+<!--order section ends--> 
+
+<!--footer section starts-->
+<section class="footer">
+  <div class="box-container"> 
+      <div class="box">
+        <h3>Locations</h3>
+        <a href = "#">Iloilo</a>
+        <a href = "#">Manila</a>
+        <a href = "#">Bacolod</a>
+        <a href = "#">Davao</a>
+        <a href = "#">Cebu</a>
+      </div>
+      <div class="box">
+        <h3>Links</h3>
+        <a href = "#">home</a>
+        <a href = "#">Manila</a>
+        <a href = "#">dishes</a>
+        <a href = "#">about</a>
+        <a href = "#">order</a>
+      </div>    
+
+      <div class="box">
+        <h3>Contact Us</h3>
+        <a href = "#">42-9242-12</a>
+        <a href = "#">0956346209</a>
+        <a href = "#">company@gmail.com</a>
+      </div>
+      <div class="box">
+        <h3>Follow Us</h3>
+        <a href = "#">Facebook</a>
+        <a href = "#">Twitter</a>
+        <a href = "#">Instagram</a>
+        <a href = "#">Linkedin</a>
+       </div>
+        
+ </div>  
+ 
+ <div class ="credit">copyright @ 2022</div>
+</section>
+<!--footer section ends-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+</body>
+</html>
